@@ -3,25 +3,6 @@
 A comprehensive **Employee Management and Payroll System** built with **Java 17**, **Spring Boot 3.x**, and **MySQL**, demonstrating core **Object-Oriented Programming (OOP)** principles with a layered architecture.
 
 ---
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [OOP Concepts Demonstrated](#-oop-concepts-demonstrated)
-- [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure)
-- [Database Schema](#-database-schema)
-- [Setup & Installation](#-setup--installation)
-- [Running the Application](#-running-the-application)
-- [Application Flow](#-application-flow)
-- [API Endpoints](#-api-endpoints)
-- [Testing](#-testing)
-- [Default Credentials](#-default-credentials)
-- [Contributing](#-contributing)
-
----
-
 ## 🎯 Overview
 
 This project is a **console-based Employee Management System** that provides comprehensive functionality for managing employees, tracking attendance, and processing payroll. It showcases professional software development practices including:
@@ -216,7 +197,6 @@ employeeManagement/
 
 ---
 
-## 🚀 Setup & Installation
 
 ### **Prerequisites**
 
@@ -225,65 +205,6 @@ employeeManagement/
 3. ✅ **MySQL 8.0+**
 4. ✅ **IDE** (IntelliJ IDEA, Eclipse, or VS Code)
 
-### **Step 1: Clone the Repository**
-
-```bash
-git clone <repository-url>
-cd employeeManagement
-```
-
-### **Step 2: Configure MySQL Database**
-
-1. **Create Database**:
-```sql
-CREATE DATABASE employee_management_db;
-```
-
-2. **Update Configuration**:
-Edit `src/main/resources/application.yml`:
-
-```yaml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/employee_management_db
-    username: root          # Your MySQL username
-    password: your_password # Your MySQL password
-```
-
-### **Step 3: Build the Project**
-
-```bash
-mvn clean install
-```
-
-### **Step 4: Run Tests** (Optional)
-
-```bash
-mvn test
-```
-
----
-
-## ▶️ Running the Application
-
-### **Option 1: Using Maven**
-
-```bash
-mvn spring-boot:run
-```
-
-### **Option 2: Using JAR**
-
-```bash
-mvn clean package
-java -jar target/employee-management-system-1.0.0.jar
-```
-
-### **Option 3: Using IDE**
-
-Run the `App.java` main class directly from your IDE.
-
----
 
 ## 🔄 Application Flow
 
